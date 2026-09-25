@@ -69,8 +69,9 @@ while True:
 								case 2: print("Type of view")
 								case 3: print("Memory status")
 					
-					case 10: print("Speed dials")
+					case 10: print("Speed dials")						
 					case 11: print("Voice tags")
+					case _ : print("Invalid Input")
 		case 2:
 			print("Messages")
 			messages_menu = """
@@ -134,10 +135,12 @@ while True:
 			"""
 									print(common_menu)
 									common_prompt = int(input('Enter any option: '))
+								case _ : print("Invalid Input")
 											
 					case 8: print("Info service")
 					case 9: print("Voice mailbox number")
 					case 10: print("Service command editor")
+					case _ : print("Invalid Input")
 				
 		case 3: print("Chat")
 		case 4: 
@@ -184,6 +187,7 @@ while True:
 										case 3: print("Received calls’ duration") 
 										case 4: print("Dialled calls’ duration") 
 										case 5: print("Clear timers") 
+										case _ : print("Invalid Input")
 								
 							case 6: 
 								print("Show call costs")
@@ -202,6 +206,7 @@ while True:
 										case 1: print("Last call cost") 
 										case 2: print("All calls’ cost") 
 										case 3: print("Clear counters") 
+										case _ : print("Invalid Input")
 								
 							case 7:
 								print("Call cost settings")
@@ -218,6 +223,7 @@ while True:
 										case 0: break
 										case 1: print("Call cost limit") 
 										case 2: print("Show costs in") 
+										case _ : print("Invalid Input")
 								
 							case 8: print("Prepaid credit")	
 			
@@ -247,7 +253,8 @@ while True:
 					case 5: print("Keypad tones") 
 					case 6: print("Warning tones") 
 					case 7: print("Vibrating alert") 
-					case 8: print("Screen saver") 
+					case 8: print("Screen saver")
+					case _ : print("Invalid Input") 
 			
 		case 6:
 			print("Settings")
@@ -287,6 +294,7 @@ while True:
 								case 4: print("Own number sending") 
 								case 5: print("Phone line in use") 
 								case 6: print("Automatic answer") 
+								case _ : print("Invalid Input")
 				
 							
 					case 2:
@@ -309,7 +317,8 @@ while True:
 								case 2: print("Cell info display") 
 								case 3: print("Welcome note") 
 								case 4: print("Network selection") 
-								case 5: print("Confirm SIM service actions") 
+								case 5: print("Confirm SIM service actions")
+								case _ : print("Invalid Input") 
 						
 					case 3: 
 						print("Security settings") 
@@ -333,7 +342,8 @@ while True:
 								case 3: print("Fixed dialling") 
 								case 4: print("Closed user group") 
 								case 5: print("Security level") 
-								case 6: print("Change access codes") 
+								case 6: print("Change access codes")
+								case _ : print("Invalid Input") 
 						
 					case 4: print("Restore factory settings") 
 				
@@ -358,6 +368,7 @@ while True:
 					case 2: print("Radio") 
 					case 3: print("Recorder") 
 					case 4: print("Track list") 
+					case _ : print("Invalid Input")
 		
 		case 9: print("Games")
 		case 10: print("Calculator")
@@ -385,9 +396,11 @@ while True:
 					case 4: print("Stopwatch")
 					case 5: print("Countdown timer")
 					case 6: print("Auto update of date and time	") 
+					case _ : print("Invalid Input")
 			
 		case 13: print("Profiles")
 		case 14: print("Services")
 		case 15: print("SIM services")
+		case _ : print("Invalid Input")
 		
 		
