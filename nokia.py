@@ -68,6 +68,7 @@ while True:
 								case 1: print("Memory in use")
 								case 2: print("Type of view")
 								case 3: print("Memory status")
+								case _ : print("Invalid Input")
 					
 					case 10: print("Speed dials")						
 					case 11: print("Voice tags")
