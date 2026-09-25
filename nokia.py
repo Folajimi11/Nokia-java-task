@@ -60,13 +60,14 @@ while True:
 							3. Memory status
 							0. Back
 						"""
-						print(option_menu)
-						option_prompt = int(input('Enter any option: '))
-						match(option_prompt):
-							case 0: break
-							case 1: print("Memory in use")
-							case 2: print("Type of view")
-							case 3: print("Memory status")
+						while True:
+							print(option_menu)
+							option_prompt = int(input('Enter any option: '))
+							match(option_prompt):
+								case 0: break
+								case 1: print("Memory in use")
+								case 2: print("Type of view")
+								case 3: print("Memory status")
 					
 					case 10: print("Speed dials")
 					case 11: print("Voice tags")
