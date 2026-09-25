@@ -373,7 +373,7 @@ while True:
 	6. Auto update of date and time	
 	0. Back
 	"""
-			while True
+			while True:
 				print(clock_menu)
 				clock_prompt = int(input('Enter any option: '))
 				match(clock_prompt):
